@@ -1,0 +1,16 @@
+data:
+  path: "data/public_can2_short.csv"
+
+pipeline:
+  WINDOW_S: 0.5
+  MIN_WINDOWS: 5
+  MIN_MSG: 3
+  Z_THRESH: 4.0
+  CONSEC_MIN: 3
+  ID_VOTE_PER_SEC: 4
+  LOW_FREQ_S: 3.0
+  MAD_EPS: 0.0001
+  BASE_ITER: 3
+
+logging:
+  level: "DEBUG"
