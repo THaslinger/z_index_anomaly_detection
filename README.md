@@ -21,6 +21,7 @@ Referenzverhalten getestet wird.
 - Abweichungen werden über robuste Z-Scores detektiert
 - Die Entscheidung erfolgt Fenster-basiert
 - Mehrere heuristische Signale werden aggregiert, um stabile Alarme zu erzeugen
+- Die Hyperparameter wurden in der Hauptarbeit bereits optimiert und dann auf dieses Projekt übertragen
 
 ---
 
